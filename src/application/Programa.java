@@ -8,7 +8,6 @@ import java.util.Set;
 
 import model.entities.Funcionario;
 import model.entities.Projeto;
-import model.entities.dao.DaoFactory;
 import model.entities.dao.FuncionarioDao;
 import model.entities.dao.ProjetoDao;
 import model.entities.impl.FuncionarioDaoImpl;
@@ -18,22 +17,12 @@ public class Programa {
 
 	public static void main(String[] args) throws ParseException {
 		
-		/*public static void mostrarMenu() {
-			System.out.println("#### MENU PRINCIPAL ####");
-			System.out.println("[1] Adicionar Funcionario");
-			System.out.println("[2] Atualizar Dados do Funcionario");
-			System.out.println("[3] Deletar Funcionario");
-			System.out.println("[4] Adicionar Projeto");
-			System.out.println("[5] Atualizar Dados do Projeto");
-			System.out.println("[6] Deletar Projeto");
-			System.out.println("[7] Imprimir Lista de Funcionarios");
-			System.out.println("[8] Imprimir Lista de Projetos");
-			System.out.println("[9] Imprimir Funcionarios com Salarios Maiores de 10 mil");
-			System.out.println("[10] Imprimir Projetos Em Andamento com Valores Estimados Acima de 500 Mil");
-			System.out.println("[11] Imprimir Projetos Atrasados");
-			System.out.println("[12] Imprimir Funcionarios Responsaveis por Projetos Em Andamento");
-			System.out.println("[13] Imprimir Emails de Funcionarios Responsaveis por Projetos");
-		}*/
+		/* INSERIR FUNCIONARIO
+		FuncionarioDao funcionarioDao = new FuncionarioDaoImpl();
+		
+		funcionarioDao.inserir(new Funcionario(null, "daniel santos", 18000.35, "danielsantos@email.com"));
+		
+		System.out.println("Funcionário inserido com sucesso. ");
 		
 		/* RECUPERAR FUNCIONARIO POR ID E ATUALIZAR FUNCIONARIO POR ID
 		FuncionarioDao funcionarioDao = new FuncionarioDaoImpl();
@@ -120,7 +109,8 @@ public class Programa {
 		
 		for(Projeto p : lista) {
 			System.out.println(p);
-		}*/
+		}
+		*/
 		
 		
 		/* RECUPERAR FUNCIONARIOS COM SALARIOS MAIORES QUE 10 MIL
@@ -130,7 +120,8 @@ public class Programa {
 		
 		for(Funcionario f : lista) {
 			System.out.println(f);
-		}*/
+		}
+		*/
 		
 		
 		/* RECUPERAR PROJETOS EM ANDAMENTO COM VALORES ACIMA DE 500 MIL
@@ -140,7 +131,8 @@ public class Programa {
 		
 		for(Projeto p : lista) {
 			System.out.println(p);
-		}*/
+		}
+		*/
 		
 		
 		/* RECUPERAR FUNCIONARIOS RESPONSAVEIS POR PROJETOS EM ANDAMENTO
@@ -150,7 +142,8 @@ public class Programa {
 		
 		for(Funcionario f : set) {
 			System.out.println(f);
-		}*/
+		}
+		*/
 		
 		
 		/* RECUPERAR EMAILS DE FUNCIONARIOS RESPONSAVEIS POR PROJETOS
@@ -160,7 +153,8 @@ public class Programa {
 		
 		for(String email : set) {
 			System.out.println(email);
-		}*/
+		}
+		*/
 		
 	}
 
