@@ -26,7 +26,7 @@ Projeto realizado para aprimorar meu entendimento em banco de dados MySQL, query
 <img width="748" height="632" alt="Image" src="https://github.com/user-attachments/assets/b8026c0c-9448-4179-8ff4-bfd9ddd0b053" />
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-## Alem das operações CRUD básicas
+## Além das operações CRUD básicas
 
 ### Recuperar os dados dos "projetos"
 <img width="1114" height="491" alt="Image" src="https://github.com/user-attachments/assets/4612dcf2-5066-4d81-b3ef-c17b440f6e81" />
